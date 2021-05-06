@@ -2,11 +2,10 @@
 # Unlike the use of "raise", which can be done anywhere in the
 # program that you choose, the use of "except" requires the framework
 # of "try". You can think of this as "pitch" and "catch" - first
-# we will use "try" to "pitch" a block of code.
+# we will use "try" to "pitch" a block of code, and if any exceptions
+# are generated, one of our "except" directives will "catch them".
 #
-# If we are successful then no exceptions are generated. Otherwise, the
-# program requires at least one generic exception directive just
-# so it knows what to do if there is an error.
+
 
 # Initialize value1
 value1 = 0
